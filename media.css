@@ -1,0 +1,10 @@
+@media (max-width: 762px) {
+    .my-pallindrome{
+        width: 100% !important;
+        
+    }
+    .ligne{
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+}

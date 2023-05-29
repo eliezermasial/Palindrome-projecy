@@ -1,0 +1,27 @@
+@import url(variables.css);
+@import url(media.css);
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--bg-body);
+}
+.ligne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.my-pallindrome{
+    background-color: var(--bg-alic);
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border: 1px solid var(--bg-body) !important;
+}
+.btn{
+    background-color: var(--bg-body);
+    width: 100%;
+    color: var(--bg-alic);
+    text-transform: capitalize;
+}
