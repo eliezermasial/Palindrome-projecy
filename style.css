@@ -24,4 +24,8 @@ body{
     width: 100%;
     color: var(--bg-alic);
     text-transform: capitalize;
+    box-shadow: none !important;
+}
+.btn:hover{
+    color: #fff;
 }

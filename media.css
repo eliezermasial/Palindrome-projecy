@@ -4,7 +4,7 @@
         
     }
     .ligne{
-        margin-left: 2% !important;
-        margin-right: 2% !important;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
     }
 }
