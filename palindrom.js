@@ -13,13 +13,13 @@ function palindrome(){
         e.preventDefault()
         if(inputvalue == reverse){
             
-            span.innerHTML= `${"yes"}  ${inputvalue} ${"is"} ${"palindrome"}`
+            span.innerHTML= `yes  ${inputvalue} is palindrome`
             span.style.textDecoration = "underline"
             span.style.color = 'blue'
             
         } else if(inputvalue !== reverse){
 
-            span.innerHTML= `${"no,"}  ${inputvalue} ${"is"} ${"not"} ${"palindrome"}`
+            span.innerHTML= `no, ${inputvalue} is not palindrome`
             span.style.textDecoration = "underline"
             span.style.color = 'red'
         }else{
